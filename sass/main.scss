@@ -1,0 +1,14 @@
+// import the function and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+    "lightbg": #FFF9F4,
+    "secondcolor": #FA804C
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
