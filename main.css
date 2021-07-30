@@ -1,0 +1,70 @@
+.bckg-light{
+    background-color: #FFF9F4;
+}
+.primary-color{
+    color: #FA804C;
+}
+.secondary-color{
+    color: #363958;
+}
+.neue{
+    font-family: 'Bebas Neue', cursive;
+}
+.heading-banner{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+}
+.text-a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.buy-btn{
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+}
+svg{
+    width: 24px;
+    height: 24px;
+}
+.card-img-box{
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+.card-box{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 25px;
+}
+.sec-heading{
+    font-family: 'Bebas Neue',cursive;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+}
+.card-info-heading{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.card-info{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+.card-price-tag{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FA804C;
+}

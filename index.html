@@ -5,55 +5,219 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Css link -->
-    <link rel="stylesheet" href="css/main.min.css">
+    <!-- Bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- My Css link -->
+    <link rel="stylesheet" href="main.css">
     <!-- Title -->
     <title>Nike React</title>
 </head>
 
 <body>
-    <header class="w-100 bg-lightbg">
+    <header class="bckg-light w-100 m-0 d-lg-flex justify-content-center align-items-center">
         <!-- Nav & logo section -->
-        <nav class="container d-flex justify-content-between align-items-center w-75 pt-4">
-            <div class="w-50">
-                <img src="icons/Logo.png" class="w-50" alt="">
-            </div>
-            <div class="w-50 ps-5">
-                <div class="w-100 ps-5">
-                    <div class="d-flex justify-content-between align-items-center ps-5">
-                        <ul class="mb-0 p-0 fw-bold">Home
+        <nav class="container">
+            <div class="row pt-4">
+                <div class="col-6">
+                    <img src="icons/Logo.png" class="w-50" alt="">
+                </div>
+                <div class="col-6">
+                    <div class="row ps-5">
+                        <ul class="col-3 mb-0 p-0 fw-bold text-end">Home
                         </ul>
-                        <ul class="mb-0 p-0 fw-bold text-black-50">Product
+                        <ul class="col-3 mb-0 p-0 fw-bold text-black-50 text-end">Product
                         </ul>
-                        <ul class="mb-0 p-0 fw-bold text-black-50">About us
+                        <ul class="col-3 mb-0 p-0 fw-bold text-black-50 text-end">About us
                         </ul>
-                        <ul class="mb-0 p-0 fw-bold text-black-50">Contact us
+                        <ul class="col-3 mb-0 p-0 fw-bold text-black-50 text-end">Contact us
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+    </header>
 
-        <!-- Top banner section -->
-        <section class="container d-flex justify-content-between align items-center w-75 mt-4">
-            <div class="w-50">
-                <img src="images/Group 33092.png" class="w-100" alt="">
-            </div>
-            <div class="w-50">
-                <div class="w-100 d-flex align-items-center justify-content-center flex-column">
-                    <h1>
-
-                    </h1>
-                    <p>
-
-                    </p>
-                    <button>
-
-                    </button>
+    <!-- Top banner section -->
+    <section class="bckg-light w-100 m-0 d-flex justify-content-center align-items-center pb-5">
+        <div class="container mb-5">
+            <div class="row mt-4 d-lg-flex align-items-center">
+                <div class="col-6">
+                    <img src="images/Group 33092.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-6">
+                    <div class="d-flex align-items-center justify-content-center flex-column">
+                        <div class="container w-auto">
+                            <h1 class="primary-color heading-banner">
+                                Nike React<br><span class="secondary-color">Infinity Run 2</span>
+                            </h1>
+                            <p class="text-a py-2">Lorem Ipsum is simply dummy text of the printing <br>and typesetting
+                                industry.</p>
+                            <button
+                                class="buy-btn d-flex text-a justify-content-center align-items-center text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg> Buy now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-    </header>
+        </div>
+    </section>
+
+    <!-- Casual shoues section -->
+    <section class="bg-white w-100 mt-5 d-flex justify-content-center align-items-center pb-5">
+        <div class="container">
+            <h1 class="sec-heading">CASUAL SHOES</h1>
+            <div class="row g-5 mt-1">
+                <div class="col-lg-4 col-12">
+                    <div class="p-4 card-box">
+                        <div class="card-img-box p-5">
+                            <img src="images/casual-1.png" class="img-fluid" alt="">
+                        </div>
+                        <h1 class="card-info-heading mt-3">Nike Shoe</h1>
+                        <p class="card-info">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1 class="card-price-tag">$234</h1>
+                            <button
+                                class="buy-btn d-flex text-a justify-content-center align-items-center text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg> Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="p-4 card-box">
+                        <div class="card-img-box p-5">
+                            <img src="images/casual-2.png" class="img-fluid" alt="">
+                        </div>
+                        <h1 class="card-info-heading mt-3">Nike Shoe</h1>
+                        <p class="card-info">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1 class="card-price-tag">$234</h1>
+                            <button
+                                class="buy-btn d-flex text-a justify-content-center align-items-center text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg> Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="p-4 card-box">
+                        <div class="card-img-box p-5">
+                            <img src="images/casual-3.png" class="img-fluid" alt="">
+                        </div>
+                        <h1 class="card-info-heading mt-3">Nike Shoe</h1>
+                        <p class="card-info">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1 class="card-price-tag">$234</h1>
+                            <button
+                                class="buy-btn d-flex text-a justify-content-center align-items-center text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg> Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formal shoues section -->
+    <section class="bg-white w-100 mt-5 pt-5 d-flex justify-content-center align-items-center pb-5">
+        <div class="container">
+            <h1 class="sec-heading">FORMAL SHOES</h1>
+            <div class="row g-5 mt-1">
+                <div class="col-lg-4 col-12">
+                    <div class="p-4 card-box">
+                        <div class="card-img-box p-4">
+                            <img src="images/formal-1.png" class="img-fluid" alt="">
+                        </div>
+                        <h1 class="card-info-heading mt-3">Nike Shoe</h1>
+                        <p class="card-info">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1 class="card-price-tag">$234</h1>
+                            <button
+                                class="buy-btn d-flex text-a justify-content-center align-items-center text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg> Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="p-4 card-box">
+                        <div class="card-img-box p-4">
+                            <img src="images/formal-3.png" class="img-fluid" alt="">
+                        </div>
+                        <h1 class="card-info-heading mt-2">Nike Shoe</h1>
+                        <p class="card-info">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1 class="card-price-tag">$234</h1>
+                            <button
+                                class="buy-btn d-flex text-a justify-content-center align-items-center text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg> Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="p-4 card-box">
+                        <div class="card-img-box p-4">
+                            <img src="images/formal-3.png" class="img-fluid" alt="">
+                        </div>
+                        <h1 class="card-info-heading mt-3">Nike Shoe</h1>
+                        <p class="card-info">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1 class="card-price-tag">$234</h1>
+                            <button
+                                class="buy-btn d-flex text-a justify-content-center align-items-center text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" class="h-2 w-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg> Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Js script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 </body>
 
